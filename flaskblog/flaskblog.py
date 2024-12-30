@@ -1,7 +1,7 @@
 from datetime import datetime
 from flask import Flask, render_template, url_for, flash, redirect
 from flask_sqlalchemy import SQLAlchemy
-from flaskblog.forms import RegistrationForm, LoginForm
+from flaskblog.users.forms import RegistrationForm, LoginForm
 
 # 初始化 Flask 應用程式
 app = Flask(__name__)

@@ -1,80 +1,96 @@
+/* 設定網頁的基本樣式 */
 body {
-    background: #fafafa;
-    color: #333333;
-    margin-top: 5rem;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    color: #636262;
-  }
-  
-  .bg-steel {
-    background-color: #5f788a;
-  }
-  
-  .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
-  }
-  
-  .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
-  }
-  
-  .site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
-  }
-  
-  .content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
-  }
-  
-  .article-title {
-    color: #646464;
-  }
-  
-  a.article-title:hover {
-    color: #428bca;
-    text-decoration: none;
-  }
-  
-  .article-content {
-    white-space: pre-line;
-  }
-  
-  .article-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
-  }
-  
-  .article-metadata {
-    padding-bottom: 1px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
-  }
-  
-  .article-metadata a:hover {
-    color: #333;
-    text-decoration: none;
-  }
-  
-  .article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-  }
-  
-  .account-img {
-    height: 125px;
-    width: 125px;
-    margin-right: 20px;
-    margin-bottom: 16px;
-  }
-  
-  .account-heading {
-    font-size: 2.5rem;
-  }
+  background: #fafafa; /* 背景色：淺灰 */
+  color: #333333;      /* 文字顏色：深灰 */
+  margin-top: 5rem;    /* 頁面頂部的外距 */
+}
+
+/* 標題文字樣式 */
+h1, h2, h3, h4, h5, h6 {
+  color: #444444; /* 標題文字顏色：中灰 */
+}
+
+/* 鋼鐵色背景樣式 */
+.bg-steel {
+  background-color: #5f788a; /* 背景色：鋼鐵藍灰色 */
+}
+
+/* 導覽列的連結樣式 */
+.site-header .navbar-nav .nav-link {
+  color: #cbd5db; /* 連結文字顏色：淡藍灰 */
+}
+
+/* 導覽列連結的滑鼠懸停樣式 */
+.site-header .navbar-nav .nav-link:hover {
+  color: #ffffff; /* 懸停時的文字顏色：白色 */
+}
+
+/* 導覽列的活動連結樣式 */
+.site-header .navbar-nav .nav-link.active {
+  font-weight: 500; /* 活動連結的字體加粗 */
+}
+
+/* 內容區塊的樣式 */
+.content-section {
+  background: #ffffff;            /* 背景色：白色 */
+  padding: 10px 20px;             /* 內距：上下10px，左右20px */
+  border: 1px solid #dddddd;      /* 邊框：淺灰色 */
+  border-radius: 3px;             /* 圓角半徑：3px */
+  margin-bottom: 20px;            /* 底部外距：20px */
+}
+
+/* 文章標題樣式 */
+.article-title {
+  color: #444444; /* 文章標題文字顏色：中灰 */
+}
+
+/* 文章標題的滑鼠懸停樣式 */
+a.article-title:hover {
+  color: #428bca;          /* 懸停時的文字顏色：藍色 */
+  text-decoration: none;   /* 移除文字底線 */
+}
+
+/* 文章內容的樣式 */
+.article-content {
+  white-space: pre-line; /* 保留文本中的換行符號 */
+}
+
+/* 文章圖片樣式 */
+.article-img {
+  height: 65px; /* 圖片高度：65px */
+  width: 65px;  /* 圖片寬度：65px */
+  margin-right: 16px; /* 右側外距：16px */
+}
+
+/* 文章元數據樣式 */
+.article-metadata {
+  padding-bottom: 1px;          /* 底部內距：1px */
+  margin-bottom: 4px;           /* 底部外距：4px */
+  border-bottom: 1px solid #e3e3e3; /* 底部邊框：淺灰色 */
+}
+
+/* 文章元數據連結的滑鼠懸停樣式 */
+.article-metadata a:hover {
+  color: #333;           /* 懸停時的文字顏色：深灰 */
+  text-decoration: none; /* 移除文字底線 */
+}
+
+/* 文章內的 SVG 圖示樣式 */
+.article-svg {
+  width: 25px;            /* 圖示寬度：25px */
+  height: 25px;           /* 圖示高度：25px */
+  vertical-align: middle; /* 垂直對齊中間 */
+}
+
+/* 帳戶頭像樣式 */
+.account-img {
+  height: 125px;        /* 頭像高度：125px */
+  width: 125px;         /* 頭像寬度：125px */
+  margin-right: 20px;   /* 右側外距：20px */
+  margin-bottom: 16px;  /* 底部外距：16px */
+}
+
+/* 帳戶標題樣式 */
+.account-heading {
+  font-size: 2.5rem; /* 字體大小：2.5 倍標準尺寸 */
+}
